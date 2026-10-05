@@ -1,0 +1,37 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e8eef5 0%, #d8e2ef 100%);
+}
+
+.cv-page {
+    min-height: 100vh;
+    padding-bottom: 3rem;
+}
+
+.cv-card {
+    background-color: #fff;
+    border-radius: 20px !important;
+    box-shadow: 0 12px 24px rgba(31, 45, 61, 0.16),
+                0 4px 8px rgba(31, 45, 61, 0.08);
+    transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.cv-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 36px rgba(31, 45, 61, 0.22),
+                0 8px 12px rgba(31, 45, 61, 0.1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .cv-card {
+        transition: none;
+    }
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+ul {
+    font-size: 19px;
+}
