@@ -35,3 +35,36 @@ h2{
 ul {
     font-size: 19px;
 }
+
+.skills-grid {
+    min-height: 100px;
+}
+
+.skills-part {
+    border-right: 1px solid #d8e2ef;
+}
+
+.skills-part:nth-child(2), .skills-part:nth-child(3) {
+    padding-left: 10px;
+}
+
+#python {
+    background: linear-gradient(90deg, #0a2b99 40%, #f7e019 70%);
+    color: #fff;
+    font-weight: bold;
+}
+#csharp {
+    background: #68217a;
+    color: #fff;
+    font-weight: bold;
+}
+#htmlcss {
+    background: linear-gradient(90deg, #e44d26 60%, #1572b6 70%);
+    color: #fff;
+    font-weight: bold;
+}
+#javascript {
+    background: linear-gradient(90deg, #f7df1e 10%, #333 70%);
+    color: #ffffff;
+    font-weight: bold;
+}
